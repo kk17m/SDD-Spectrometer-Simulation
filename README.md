@@ -23,7 +23,7 @@ A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluore
 
  DOI: [10.3390/ijms25094733](https://doi.org/10.3390/ijms25094733); PMID: [38731956](https://pubmed.ncbi.nlm.nih.gov/38731956/); PMCID: [PMC11083219](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11083219/)
 
- =========================================================================================================
+ -------------------------------------------------------------------
 	
  1- GEOMETRY DEFINITION
 	
