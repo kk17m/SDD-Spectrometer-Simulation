@@ -23,6 +23,18 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
+// GEANT4 tag $Name: SDD-01-00
+//
+// Author: Kunal Kumar (kunal.kumar@ovgu.de)
+//
+// Citation: Kumar K, Fachet M, Hoeschen C. High-Spatial-Resolution Benchtop X-ray Fluorescence Imaging through Bragg-Diffraction-Based Focusing with Bent Mosaic Graphite Crystals: A Simulation Study. Int J Mol Sci. 2024 Apr 26;25(9):4733. doi: 10.3390/ijms25094733. PMID: 38731956; PMCID: PMC11083219.
+//
+// DOI: 10.3390/ijms25094733; PMID: 38731956; PMCID: PMC11083219
+//
+// History:
+// -----------
+// 15 Nov 2023 - Kunal Kumar:     Created. Built using B1 base example
+// -------------------------------------------------------------------
 //
 /// \file SDDRunAction.hh
 /// \brief Definition of the SDDRunAction class
@@ -39,12 +51,6 @@ class G4Run;
 class SDDRun;
 class G4Timer;
 class SDDHistoManager;
-
-/// Run action class
-///
-/// In EndOfRunAction(), it calculates the dose in the selected volume 
-/// from the energy deposit accumulated via stepping and event actions.
-/// The computed dose is then printed on the screen.
 
 class SDDRunAction : public G4UserRunAction
 {

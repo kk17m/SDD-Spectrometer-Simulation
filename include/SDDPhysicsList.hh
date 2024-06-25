@@ -23,12 +23,22 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
-/// \file electromagnetic/TestEm5/include/PhysicsList.hh
-/// \brief Definition of the PhysicsList class
+// GEANT4 tag $Name: SDD-01-00
 //
-// $Id: PhysicsList.hh 82340 2014-06-16 14:13:44Z gcosmo $
+// Author: Kunal Kumar (kunal.kumar@ovgu.de)
 //
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+// Citation: Kumar K, Fachet M, Hoeschen C. High-Spatial-Resolution Benchtop X-ray Fluorescence Imaging through Bragg-Diffraction-Based Focusing with Bent Mosaic Graphite Crystals: A Simulation Study. Int J Mol Sci. 2024 Apr 26;25(9):4733. doi: 10.3390/ijms25094733. PMID: 38731956; PMCID: PMC11083219.
+//
+// DOI: 10.3390/ijms25094733; PMID: 38731956; PMCID: PMC11083219
+//
+// History:
+// -----------
+// 15 Nov 2023 - Kunal Kumar:     Created. Built using B1 base example
+// -------------------------------------------------------------------
+//
+/// \file SDDPhysicsList.hh
+/// \brief Definition of the SDDPhysicsList class
+//
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 #ifndef PhysicsList_h

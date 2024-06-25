@@ -23,15 +23,26 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
-/// \file Run.hh
-/// \brief Definition of the Run class
+// GEANT4 tag $Name: SDD-01-00
 //
+// Author: Kunal Kumar (kunal.kumar@ovgu.de)
 //
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+// Citation: Kumar K, Fachet M, Hoeschen C. High-Spatial-Resolution Benchtop X-ray Fluorescence Imaging through Bragg-Diffraction-Based Focusing with Bent Mosaic Graphite Crystals: A Simulation Study. Int J Mol Sci. 2024 Apr 26;25(9):4733. doi: 10.3390/ijms25094733. PMID: 38731956; PMCID: PMC11083219.
+//
+// DOI: 10.3390/ijms25094733; PMID: 38731956; PMCID: PMC11083219
+//
+// History:
+// -----------
+// 15 Nov 2023 - Kunal Kumar:     Created. Built using B1 base example
+// -------------------------------------------------------------------
+//
+/// \file SDDRun.hh
+/// \brief Definition of the SDDRun class
+//
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-#ifndef Run_h
-#define Run_h 1
+#ifndef SDDRun_h
+#define SDDRun_h 1
 
 #include "G4Run.hh"
 #include "G4VProcess.hh"
