@@ -13,10 +13,12 @@ A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluore
 
  This simulation code implements a silicon drift detector (SDD) for x-ray fluorescence and
  spectrometry applications. The detector parameters are based on Amptek XR100 FastSDD X-ray
- detector (Amptek Inc., Bedford, MA, USA). 
+ detector (Amptek Inc., Bedford, MA, USA). This code is free to use, share, and modify.
 
  Author: Kunal Kumar (kunal.kumar@ovgu.de)
 
+ Please use the following reference:
+ 
  Citation: Kumar K, Fachet M, Hoeschen C. High-Spatial-Resolution Benchtop X-ray Fluorescence Imaging
  through Bragg-Diffraction-Based Focusing with Bent Mosaic Graphite Crystals: A Simulation Study.
  Int J Mol Sci. 2024 Apr 26;25(9):4733. doi: 10.3390/ijms25094733. PMID: 38731956; PMCID: PMC11083219.
