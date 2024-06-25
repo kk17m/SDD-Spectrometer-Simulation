@@ -9,7 +9,7 @@ A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluore
 
                                 SDD
                             -----------
-==========================================================================================================
+-------------------------------------------------------------------
 
  This simulation code implements a silicon drift detector (SDD) for x-ray fluorescence and
  spectrometry applications. The detector parameters are based on Amptek XR100 FastSDD X-ray
