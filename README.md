@@ -30,7 +30,7 @@ A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluore
  1- GEOMETRY DEFINITION
 	
    The geometry is constructed in the SDDDetectorConstruction class. The parameters for geometry are taken
-   from the user manual (Amptek Silicon Drift Detector XR-100FastSDD). [Available online](https://www.amptek.com/-/media/ametekamptek/documents/resources/products/user-manuals/xr100-1mm-fastsdd-user-manual-b4.pdf?la=en&revision=24e8eb09-6164-48ba-8336-e572f84bf5c1)
+   from the user manual (Amptek Silicon Drift Detector XR-100FastSDD, [Available online](https://www.amptek.com/-/media/ametekamptek/documents/resources/products/user-manuals/xr100-1mm-fastsdd-user-manual-b4.pdf?la=en&revision=24e8eb09-6164-48ba-8336-e572f84bf5c1)).
    		
  2- PHYSICS LIST
    
@@ -46,7 +46,7 @@ A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluore
  4- SDD DETECTOR MODEL
 
    The detector model is based on analytical equations implementing Fano and electronic noise. The parameters
-   are obtained from the Amptek user manual and application Notes (Amptek Silicon Drift Detector XR-100FastSDD). [Available online](https://www.amptek.com/-/media/ametekamptek/documents/resources/application-notes/high-sensitivity-detectors-for-xrf.pdf?la=en&revision=9d04dd37-c2ea-4f89-ad58-55579a8574b1)
+   are obtained from the Amptek user manual and application Notes (Amptek Silicon Drift Detector XR-100FastSDD, [Available online](https://www.amptek.com/-/media/ametekamptek/documents/resources/application-notes/high-sensitivity-detectors-for-xrf.pdf?la=en&revision=9d04dd37-c2ea-4f89-ad58-55579a8574b1)).
    
  5- HOW TO RUN
 
