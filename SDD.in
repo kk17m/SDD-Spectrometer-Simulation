@@ -1,0 +1,57 @@
+# Macro file for SDD
+
+/control/verbose 0
+/tracking/verbose 0
+/run/verbose 0
+
+#
+/run/initialize
+
+#
+# Energy loss setup and maximum post-step interaction length
+/process/eLoss/fluct false
+/process/eLoss/StepFunction 1 1 mm
+/process/em/fluo true
+/process/em/auger true
+/process/em/pixe true
+
+### Spatial (beam) properties ##############
+
+/gps/pos/type Beam
+/gps/pos/shape Circle
+/gps/pos/centre 0. 0. 200. mm
+/gps/pos/rot1 1 0 0
+/gps/pos/rot2 0 1 0
+/gps/pos/halfx 0.16 mm
+/gps/pos/halfy 0.16 mm
+/gps/pos/sigma_x 0.13588 mm
+/gps/pos/sigma_y 0.13588  mm
+
+### Energy (beam) properties ##############
+
+## Monochromatic incident photon energies
+/gps/ene/type Gauss
+/gps/ene/mono 45.0 keV
+/gps/ene/sigma 0.2 keV
+
+## Polychromatic incident photon energy distribution (needs a text file)
+#/gps/ene/type Arb
+#/gps/hist/type arb
+#/control/execute myFile.hist
+#/gps/hist/inter Lin
+
+### Angular (beam) properties ##############
+
+/gps/ang/type iso
+/gps/ang/rot1 1 0 0
+/gps/ang/rot2 0 1 0
+/gps/ang/mintheta 0 deg
+/gps/ang/maxtheta 0.01 deg
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 360 deg
+
+##########################################
+
+/run/printProgress 1000000
+
+#/run/beamOn  50000000
