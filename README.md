@@ -17,7 +17,7 @@ A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluore
 
  Author: Kunal Kumar (kunal.kumar@ovgu.de)
 
- Please use the following reference:
+ # Please use the following reference:
  
  Citation: Kumar K, Fachet M, Hoeschen C. High-Spatial-Resolution Benchtop X-ray Fluorescence Imaging
  through Bragg-Diffraction-Based Focusing with Bent Mosaic Graphite Crystals: A Simulation Study.
