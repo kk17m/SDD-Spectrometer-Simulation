@@ -1,10 +1,10 @@
 # SDD-Spectrometer-Simulation
-A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluorescence and spectrometry applications. The simulation includes energy-dispersive photon counting detectors intended for spectrometry and molecular imaging. The detector is based on the Amptek XR100 FastSDD X-ray  detector (Amptek Inc., Bedford, MA, USA).
+A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluorescence (xrf) and spectrometry applications. The simulation includes energy-dispersive photon counting detectors intended for spectrometry and molecular imaging. The detector is based on the Amptek XR100 FastSDD X-ray detector (Amptek Inc., Bedford, MA, USA).
 
 -------------------------------------------------------------------
 
- This simulation code implements a silicon drift detector (SDD) for x-ray fluorescence and
- spectrometry applications. The detector parameters are based on Amptek XR100 FastSDD X-ray
+ This simulation code implements a silicon drift detector (SDD) for xray fluorescence (xrf) and
+ spectrometry applications. The simulation code uses the Geant4 toolkit. The detector parameters are based on Amptek XR100 FastSDD X-ray
  detector (Amptek Inc., Bedford, MA, USA). This code is free to use, share, and modify.
 
  Author: Kunal Kumar (kunal.kumar@ovgu.de)
