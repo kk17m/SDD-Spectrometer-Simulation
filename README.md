@@ -3,7 +3,7 @@ A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluore
 
 -------------------------------------------------------------------
 
- This simulation code implements a silicon drift detector (SDD) for xray fluorescence (xrf) and
+ This simulation code implements an energy dispersive (photon counting) silicon drift detector (SDD) for xray fluorescence (xrf) and
  spectrometry applications. The simulation code uses the Geant4 toolkit. The detector parameters are based on Amptek XR100 FastSDD X-ray
  detector (Amptek Inc., Bedford, MA, USA). This code is free to use, share, and modify.
 
