@@ -1,25 +1,17 @@
 # SDD-Spectrometer-Simulation
-A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluorescence and spectrometry applications. The simulation includes energy-dispersive photon counting detectors intended for spectrometry and molecular imaging. The detector is based on the Amptek XR100 FastSDD X-ray  detector (Amptek Inc., Bedford, MA, USA).
+A Monte Carlo simulation code of energy dispersive (photon counting) silicon drift detectors (SDDs) for X-ray fluorescence (xrf) and spectrometry applications. The simulation includes energy-dispersive photon counting detectors intended for spectrometry and molecular imaging. The detector is based on the Amptek XR100 FastSDD X-ray detector (Amptek Inc., Bedford, MA, USA).
 
 -------------------------------------------------------------------
 
-     =========================================================
-        Silicon drift detector (SDD) simulation on Geant4
-     =========================================================
-
-                                SDD
-                            -----------
--------------------------------------------------------------------
-
- This simulation code implements a silicon drift detector (SDD) for x-ray fluorescence and
- spectrometry applications. The detector parameters are based on Amptek XR100 FastSDD X-ray
+ This simulation code implements an energy dispersive (photon counting) silicon drift detector (SDD) for xray fluorescence (xrf) and
+ spectrometry applications. The simulation code uses the Geant4 toolkit. The detector parameters are based on Amptek XR100 FastSDD X-ray
  detector (Amptek Inc., Bedford, MA, USA). This code is free to use, share, and modify.
 
  Author: Kunal Kumar (kunal.kumar@ovgu.de)
 
- Please use the following reference:
-
- Citation: Kumar K, Fachet M, Hoeschen C. High-Spatial-Resolution Benchtop X-ray Fluorescence Imaging
+ **Please use the following reference:**
+ 
+ **Citation:** Kumar K, Fachet M, Hoeschen C. High-Spatial-Resolution Benchtop X-ray Fluorescence Imaging
  through Bragg-Diffraction-Based Focusing with Bent Mosaic Graphite Crystals: A Simulation Study.
  Int J Mol Sci. 2024 Apr 26;25(9):4733. doi: 10.3390/ijms25094733. PMID: 38731956; PMCID: PMC11083219.
 
@@ -30,7 +22,7 @@ A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluore
  1- GEOMETRY DEFINITION
 	
    The geometry is constructed in the SDDDetectorConstruction class. The parameters for geometry are taken
-   from the user manual (Amptek Silicon Drift Detector XR-100FastSDD). [Available online](https://www.amptek.com/-/media/ametekamptek/documents/resources/products/user-manuals/xr100-1mm-fastsdd-user-manual-b4.pdf?la=en&revision=24e8eb09-6164-48ba-8336-e572f84bf5c1)
+   from the user manual (Amptek Silicon Drift Detector XR-100FastSDD, [Available online](https://www.amptek.com/-/media/ametekamptek/documents/resources/products/user-manuals/xr100-1mm-fastsdd-user-manual-b4.pdf?la=en&revision=24e8eb09-6164-48ba-8336-e572f84bf5c1)).
    		
  2- PHYSICS LIST
    
@@ -46,7 +38,7 @@ A Monte Carlo simulation code of silicon drift detectors (SDDs) for X-ray fluore
  4- SDD DETECTOR MODEL
 
    The detector model is based on analytical equations implementing Fano and electronic noise. The parameters
-   are obtained from the Amptek user manual and application Notes (Amptek Silicon Drift Detector XR-100FastSDD). [Available online](https://www.amptek.com/-/media/ametekamptek/documents/resources/application-notes/high-sensitivity-detectors-for-xrf.pdf?la=en&revision=9d04dd37-c2ea-4f89-ad58-55579a8574b1)
+   are obtained from the Amptek user manual and application Notes (Amptek Silicon Drift Detector XR-100FastSDD, [Available online](https://www.amptek.com/-/media/ametekamptek/documents/resources/application-notes/high-sensitivity-detectors-for-xrf.pdf?la=en&revision=9d04dd37-c2ea-4f89-ad58-55579a8574b1)).
    
  5- HOW TO RUN
 
