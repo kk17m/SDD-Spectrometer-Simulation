@@ -42,7 +42,8 @@ A Monte Carlo simulation code of energy dispersive (photon counting) silicon dri
    
  5- HOW TO RUN
 
-    - Execute SDD in the 'interactive mode' with visualization (Note for visualization: in the SDD.in file, please reduce the number of primaries in the line: /run/beamOn 50000000):
+    - Execute SDD in the 'interactive mode' with visualization (Note for visualization: in the SDD.in file, please 
+      reduce the number of primaries in the line: /run/beamOn 50000000):
         % ./SDD
       and type in the commands from SDD.in line by line:  
         Idle> /control/verbose 2
