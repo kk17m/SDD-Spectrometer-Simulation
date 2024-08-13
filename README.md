@@ -18,7 +18,10 @@ A Monte Carlo simulation code of energy dispersive (photon counting) silicon dri
  DOI: [10.3390/ijms25094733](https://doi.org/10.3390/ijms25094733); PMID: [38731956](https://pubmed.ncbi.nlm.nih.gov/38731956/); PMCID: [PMC11083219](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11083219/)
 
  -------------------------------------------------------------------
-	
+ 0- PREREQUISITES
+
+   This code has been developed on version Geant4-10.5.1. Compatibility with other Geant4 versions is not guaranteed. Code modifications might be necessary to ensure functionality on alternative Geant4 environments.
+   
  1- GEOMETRY DEFINITION
 	
    The geometry is constructed in the SDDDetectorConstruction class. The parameters for geometry are taken
