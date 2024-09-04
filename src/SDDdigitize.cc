@@ -58,7 +58,7 @@ SDDdigitize::SDDdigitize(G4String name)
     G4RunManager *pointerRunMan = G4RunManager::GetRunManager();
     SDDDetectorConstruction *detConstruction = (SDDDetectorConstruction *)(pointerRunMan->GetUserDetectorConstruction());
     sensorPz = detConstruction->GetSensorThickness();
-    nEH = 3.61;   // avg. energy to produce an electron-hole pair in Silicon (eV)
+    nEH = 3.61;   // avg. energy to produce an electron-hole pair in Silicon (eV) 
     fano = 0.115; // fano factor
     DelE = 52.; // ref. Amptek 160mm2 FastSDD, 1us T_peak, 250K temp (https://www.amptek.com/-/media/ametekamptek/documents/resources/application-notes/high-sensitivity-detectors-for-xrf.pdf?la=en&revision=9d04dd37-c2ea-4f89-ad58-55579a8574b1)
 }
